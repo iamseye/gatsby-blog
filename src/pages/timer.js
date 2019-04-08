@@ -8,6 +8,7 @@ import PageHeader from "../components/Page/PageHeader";
 import Content from "../components/Main/Content";
 import config from "../../content/meta/config";
 import Clock from "../components/Clock";
+import Timer from "../components/Timer";
 
 const styles = theme => ({});
 
@@ -18,6 +19,8 @@ const Contact = () => {
         <PageHeader title="Clock & Timer" />
         <Content>
             <Clock />
+            <br />
+            <Timer />
         </Content>
       </Article>
     </Main>
