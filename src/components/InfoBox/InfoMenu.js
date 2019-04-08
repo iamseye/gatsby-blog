@@ -45,6 +45,9 @@ const InfoMenu = props => {
       <Link to="/contact/" onClick={linkOnClick} className={classes.link} data-shape="closed">
         Contact
       </Link>
+      <Link to="/timer/" onClick={linkOnClick} className={classes.link} data-shape="closed">
+        Timer
+      </Link>
     </nav>
   );
 };
